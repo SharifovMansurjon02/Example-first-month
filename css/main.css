@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Philosopher:wght@400;700&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Philosopher:wght@400;700&family=Roboto:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header {
+
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 33px 0;
+}
+
+.header__navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+}
+
+.header__navbar__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.header__navbar__list>li:hover {
+    font-weight: 700;
+}
+
+.header__navbar__list li {
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.header__btn {
+    height: 46px;
+    width: 155px;
+}
+
+.header__button:hover {
+    background-color: #8b4e0b;
+}
+
+.header__button {
+    width: 100%;
+    height: 100%;
+    background-color: #DC780B;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.hero_banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 250px;
+}
+
+h1 {
+
+    width: 555px;
+    font-size: 50px;
+    font-family: Philosopher;
+    margin-bottom: 45px;
+}
+
+.hero_banner__p {
+    width: 555px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.hero_banner__btn {
+    height: 60px;
+    width: 158px;
+    border-radius: 5px;
+    background-color: #DC780B;
+    margin-right: 30px;
+    border: 0;
+    color: #F5F5F5;
+}
+
+.hero_banner__btn:hover {
+    background-color: #8b4e0b;
+}
+
+.btn2 {
+    background-color: #F5F5F5;
+    color: #DC780B;
+}
+
+.btn2:hover {
+    background-color: #a09393;
+}
+
+.hero_banner__img {
+    background-image: url("../images/banner-img.jpg");
+    height: 670px;
+    width: 801px;
+
+}
+
+.about_banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 225px;
+}
+
+.about-as {
+    font-family: Roboto;
+    font-size: 16px;
+    text-decoration: none;
+    color: #DC780B;
+
+
+
+}
+
+.about_banner__img {
+
+    width: 600px;
+}
+
+.about__img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.about_banner__text>h2 {
+    text-align: start;
+    width: 550px;
+    margin-bottom: 30px;
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.about_banner__p {
+    width: 550px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.about_banner__btn {
+    height: 42px;
+    width: 142px;
+    border-radius: 5px;
+    background-color: #DC780B;
+    color: #F5F5F5;
+    border: 0;
+}
+
+.about_banner__btn:hover {
+    background-color: #8b4e0b;
+}
+
+.menu {
+    font-family: Roboto;
+    font-size: 16px;
+    text-decoration: none;
+    color: #DC780B;
+    margin-left: 600px;
+
+}
+
+.menu__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.menu_banner__h2 {
+    text-align: center;
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+
+
+}
+
+.menu_banner__p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 190px;
+}
+
+.menu_card {
+    width: 360px;
+    height: 450px;
+
+    margin: 30px;
+
+}
+
+.menu_card>img {
+    display: block;
+    border-radius: 30% 5% 30% 0;
+
+
+}
+
+.menu_card__strong {
+    display: inline;
+    margin: 21px 0 20px 0;
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu_card__strong2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu_strong {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.menu_card__p {
+    height: 38px;
+    width: 310px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+
+
+}
+
+.menu_card__btn {
+    height: 34px;
+    width: 36px;
+    border-radius: 5px;
+    background: #DC780B;
+    border: 0;
+}
+
+.menu_card__btn:hover {
+    background-color: #8b4e0b;
+}
+
+.menu_card__text {
+    width: 310px;
+    margin: auto;
+}
+
+.menu_card__star {
+    display: inline;
+    margin-left: 185px;
+}
+
+.menu__btn {
+    height: 42px;
+    width: 142px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: #DC780B;
+    background-color: rgb(237, 230, 230);
+    color: #DC780B;
+    margin-left: 43%;
+
+}
+
+.menu__btn:hover {
+    background-color: #a09393;
+}
+
+.from_submit {
+    height: 75px;
+    width: 156px;
+    border-radius: 10px;
+}
+
+.contact {
+    font-family: Roboto;
+    font-size: 16px;
+    text-decoration: none;
+    color: #DC780B;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+.contact_banner {
+    background-color: rgb(242, 224, 228);
+    width: 100%;
+    height: 450px;
+    margin-top: 40px;
+}
+
+.contact_banner__item {
+    width: 750px;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.contact_text {
+    width: 700px;
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.contact_text {
+    height: 75px;
+    width: 750px;
+    border-radius: 10px;
+}
+
+.contact__btn {
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 111px auto;
+    position: relative;
+}
+
+.contact_banner__input {
+    width: 100%;
+    font-size: 19px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.contact_banner__button {
+    width: 100px;
+    font-size: 19px;
+    padding: 18px;
+    background-color: #DC780B;
+    color: #ffffff;
+    outline: none;
+    position: absolute;
+    border: 2px solid #DC780B;
+    right: 0;
+    border-radius: 7px;
+}
+
+.contact_banner__button:hover {
+    background-color: #8b4e0b;
+}
+
+.footer {
+    background-color: rgb(40, 38, 38);
+    height: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.footer__list {
+    list-style: none;
+
+}
+
+.list {
+    width: 262px;
+    font-family: Roboto;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffffb9;
+}
+
+.footer__list>li {
+    margin-bottom: 20px;
+}
+
+.footer__navigation__title1 {
+    margin-right: 200px;
+}
+
+.footer__strong {
+    font-family: Philosopher;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 450px;
+}
+
+.list-one,
+.list-two {
+    margin-top: 30px;
+}
+
+.list-three {
+    margin-top: 30px;
+}
+
+.title3 {
+    margin-bottom: 70px;
+    font-size: 18px;
+    color: #ffffff;
+}
